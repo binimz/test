@@ -10,6 +10,7 @@ $serie=(isset($_GET['serie'])?$_GET['serie']:"No cargaste tu serie favorita");
 $animal=(isset($_GET['animal'])?$_GET['animal']:"No cargaste una animal preferido");
 $artista=(isset($_GET['artista'])?$_GET['artista']:"No cargaste un artista preferido");
 $clima=(isset($_GET['clima'])?$_GET['clima']:"No cargaste un clima");
+$test=(isset($_GET['test'])?$_GET['test']:"No cargaste un test");
 ?><br><br><?php
 
 echo "Hola $usuario";?><br><br><?php
@@ -22,4 +23,5 @@ echo "Tu juego de mesa preferido es: $boardgame";?><br><br><?php
 echo "Tu serie favorita es: $serie";?><br><br><?php
 echo "Tu artista preferido es: $artista";?><br><br><?php
 echo "Tu animal preferido es: $animal";?><br><br><?php
+echo "Tu test preferido es: $test";?><br><br><?php
 ?>
